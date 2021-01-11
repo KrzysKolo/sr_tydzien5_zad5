@@ -1,0 +1,14 @@
+.page-users {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  &__searchUser {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+}
+.user-list {
+  list-style: none;
+  padding: 2rem;
+}

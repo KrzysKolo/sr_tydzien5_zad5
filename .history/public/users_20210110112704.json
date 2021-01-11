@@ -1,0 +1,43 @@
+{
+ "users": [
+ 	{
+ 		"id": 1,
+    "name": {
+      "title": "Mrs",
+      "first": "Yasemin",
+      "last": "Çağıran"
+			},
+		"location": {
+			"street": {
+				"number": 9230,
+				"name": "Vatan Cd"
+				},
+			"city": "Aksaray",
+			"country": "Turkey",
+			"postcode": 79467
+		},
+		"email": "yasemin.cagiran@example.com",
+		"photo": "https://randomuser.me/api/portraits/med/women/88.jpg"
+	},
+  {
+    "id": 2,
+    "name": {
+      "title": "Mrs",
+      "first": "Marsha",
+      "last": "Cook"
+      },
+      "location": {
+        "street": {
+          "number": 7187,
+          "name": "Preston Rd"
+      },
+        "city": "Denton",
+        "country": "United States",
+        "postcode": 19208
+      },
+    "email": "marsha.cook@example.com",
+    "photo": "https://randomuser.me/api/portraits/med/women/20.jpg"
+  }
+
+  ]
+}

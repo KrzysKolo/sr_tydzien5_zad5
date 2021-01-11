@@ -1,0 +1,158 @@
+{
+ "users": [
+ 	{
+ 		"id": 1,
+    "name": {
+      "title': "Mrs",
+      'first": "Yasemin",
+      "last": "Çağıran"
+			},
+		"location": {
+			"street": {
+				"number": 9230,
+				"name": "Vatan Cd"
+				},
+			"city": "Aksaray",
+			"country": "Turkey",
+			"postcode": 79467,
+		},
+		"email": "yasemin.cagiran@example.com",
+		"photo": "https://randomuser.me/api/portraits/med/women/88.jpg"
+	},
+	{
+		"id": 2,
+		"name": {
+			"title": "Mrs",
+			"first": "Marsha",
+			"last": "Cook"
+			},
+			"location": {
+				"street": {
+					"number": 7187,
+					"name": "Preston Rd"
+			},
+				"city": "Denton",
+				"country": "United States",
+				"postcode": 19208,
+			},
+			"email": "marsha.cook@example.com",
+			"photo": "https://randomuser.me/api/portraits/med/women/20.jpg"
+	},
+	{
+		"id": 3,
+		"name": {
+			"title": "Monsieur",
+			"first": "Heiko",
+			"last": "Lefebvre"
+			},
+		"location": {
+			"street": {
+				"number": 99,
+				"name": "Rue Pasteur"
+			},
+			"city": "Splügen",
+			"country": "Switzerland",
+			"postcode": 5815,
+		},
+			"email": "heiko.lefebvre@example.com",
+			"photo": "https://randomuser.me/api/portraits/med/men/7.jpg"
+	},
+	{
+		"id": 4,
+		"name": {
+			"title": "Mr",
+			"first": "Mason",
+			"last": "White"
+			},
+		"location": {
+			"street": {
+				"number": 8752,
+				"name": "Herbert Street"
+			},
+		"city": "Hastings",
+		"country": "New Zealand",
+		"postcode": 56794,
+		},
+		"email": "mason.white@example.com",
+		"photo": "https://randomuser.me/api/portraits/med/men/6.jpg"
+	},
+	{
+		"id": 5,
+		"name": {
+			"title": "Mr",
+			"first": "Mehmet",
+			"last": "Toraman"
+			},
+		"location": {
+			"street": {
+			"number": 5590,
+			"name": "Fatih Sultan Mehmet Cd"
+			},
+		"city": "Ardahan",
+		"country": "Turkey",
+		"postcode": 17831,
+		},
+		"email": "mehmet.toraman@example.com",
+		"photo": "bad32e27819a93790c8d4ef6d2345e63642c5196"
+	},
+	{
+		"id": 6,
+		"name":{
+			"title": "Miss",
+			"first": "Alice",
+			"last": "Ulmer"
+			},
+		"Location" {
+			"street" {
+			"number" 7658,
+			"name": "Friedhofstraße"
+			},
+		"city": "Bad Neustadt an der Saale",
+		"country": "Germany",
+		"postcode": 38528,
+		},
+		"email": "alice.ulmer@example.com",
+		"photo": "https://randomuser.me/api/portraits/med/women/52.jpg"
+	},
+	{
+		"id": 7,
+		"name": {
+			"title": "Mrs",
+			"first": "Sylwia",
+			"last": "Rolle"
+			},
+		"location": {
+			"street": {
+				"number": 23,
+				"name": "Brunnenstraße"
+			},
+			"city": "Wasserburg am Inn",
+			"country": "Germany",
+			"postcode": 10240,
+			"email": "sylwia.rolle@example.com",
+			"photo": "https://randomuser.me/api/portraits/med/women/26.jpg"
+		}
+	},
+	{
+		"id" : 8,
+		"name": {
+			"title": "Miss",
+			"first": "Katrine",
+			"last": "Olsen"
+			},
+		"location": {
+			"street": {
+				"number": 8175,
+				"name": "Grønnegade"
+			},
+		"city": "Jerslev Sj",
+		"country": "Denmark",
+		"postcode": 28408,
+		},
+		"email": "katrine.olsen@example.com",
+		"photo": "https://randomuser.me/api/portraits/med/women/23.jpg"
+	}
+
+
+    ]
+  }

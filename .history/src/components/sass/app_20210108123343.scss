@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+  .sidebar {
+    width: 12rem;
+  }
+  .app__page {
+    width: calc(100% - 12rem);
+    background: #fafafa;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+  }
+}

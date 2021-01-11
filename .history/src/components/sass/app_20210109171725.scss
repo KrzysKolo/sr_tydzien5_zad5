@@ -1,0 +1,45 @@
+//Color
+$primary: #b30070;
+$primary-dark: rgb(140, 2, 87);
+$dark-secondary: #444444;
+$light: #fff;
+$grey-50: #fafafa;
+$light-secondary: #666666;
+//shadow
+$shadow-10: 0 0.25rem 1rem rgba(0, 0, 0, 0.4);
+$shadow-20: 0 0.75rem 1.25rem rgba(0, 0, 0, 0.4);
+//font-size
+$font-size-xxs: 0.625rem;
+$font-size-xs: 0.75rem;
+$font-size-sm: 0.9rem;
+$font-size-md: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-xl: 1.5rem;
+$font-size-xxl: 2rem;
+//font-weight
+$font-wight-bold: bold;
+//transition
+$transition-duration: 0.2s;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.app {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  .app__page {
+    width: 100%;
+    background: $grey-50;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+}
+.active {
+  border-bottom: 3px solid $primary;
+  transition: 0.2s ease-in-out;
+}

@@ -1,0 +1,37 @@
+.button {
+  color: $light;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 0.5rem;
+  outline: none;
+  padding: 10px 20px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  width: 6rem;
+  &:hover {
+    background: linear-gradient(
+      149deg,
+      rgba(226, 22, 148, 1) 0%,
+      rgba(179, 0, 112, 1) 40%,
+      rgba(153, 12, 99, 1) 100%
+    );
+  }
+  &-reset {
+    background: linear-gradient(
+      149deg,
+      rgba(153, 12, 99, 1) 0%,
+      rgba(179, 0, 112, 1) 40%,
+      rgba(226, 22, 148, 1) 100%
+    );
+  }
+  &-search {
+    background: rgb(195, 1, 4);
+    background: linear-gradient(
+      149deg,
+      rgba(195, 1, 4, 1) 0%,
+      rgba(221, 17, 17, 1) 40%,
+      rgba(234, 91, 91, 1) 100%
+    );
+  }
+}

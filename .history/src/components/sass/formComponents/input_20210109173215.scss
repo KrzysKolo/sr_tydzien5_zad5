@@ -1,0 +1,13 @@
+.input {
+  color: $light;
+  &-search {
+    border: 1px solid $light;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 2px rgba($light-secondary, 0.5);
+    font-weight: 500;
+    margin: 0.5rem;
+    padding: 10px 20px;
+    transition: all 0.2s ease-in-out;
+    width: 20rem;
+  }
+}

@@ -1,0 +1,8 @@
+.input {
+  color: $light;
+  &-search {
+    border-bottom: 2px solid $light-secondary;
+    font-size: 20px;
+    padding: 8px 10px;
+  }
+}

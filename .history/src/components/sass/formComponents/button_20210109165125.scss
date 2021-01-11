@@ -1,0 +1,32 @@
+.button {
+  color: $light;
+  border-radius: 5px;
+  box-shadow: $shadow-10;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 0.5rem;
+  padding: 10px 20px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  width: 6rem;
+  &:hover {
+    background: linear-gradient(
+      149deg,
+      rgba(226, 22, 148, 1) 0%,
+      rgba(179, 0, 112, 1) 40%,
+      rgba(153, 12, 99, 1) 100%
+    );
+  }
+  &-reset {
+    background: rgb(226, 22, 148);
+    background: linear-gradient(
+      149deg,
+      rgba(226, 22, 148, 1) 0%,
+      rgba(179, 0, 112, 1) 40%,
+      rgba(153, 12, 99, 1) 100%
+    );
+  }
+  &-search {
+    background-color: red;
+  }
+}

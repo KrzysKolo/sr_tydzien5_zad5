@@ -1,0 +1,51 @@
+.user-profil {
+  width: 40vw;
+  height: 40vw;
+  background-color: green;
+}
+.profil {
+  width: 70rem;
+  height: 25rem;
+  background-color: green;
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  &-photo {
+    border: 3px solid yellow;
+    border-radius: 20px;
+    position: relative;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    img {
+      border-radius: 20px 20px 0 0;
+      height: 250px;
+      object-fit: fill;
+    }
+    &:hover {
+      transform: rotateY(180deg);
+    }
+    &__font {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    &__back {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      background-color: #333;
+      color: white;
+      padding: 11px;
+      transform: rotateY(180deg);
+    }
+  }
+}

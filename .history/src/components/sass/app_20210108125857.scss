@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Leckerli One", cursive;
+  // font-family: 'Roboto', sans-serif;
+}
+.app {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  .app__page {
+    width: calc(100% - 12rem);
+    background: #fafafa;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+}

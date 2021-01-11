@@ -1,0 +1,82 @@
+.user-profil {
+  width: 40vw;
+  height: 40vw;
+  background-color: green;
+}
+.profil {
+  width: 70rem;
+  height: 19rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &-photo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 20px;
+    position: relative;
+    height: 100%;
+    box-shadow: 0px 0px 10px $dark-secondary;
+    transition: transform 0.8s;
+    padding: 1px;
+    transform-style: preserve-3d;
+    &__front {
+      img {
+        border-radius: 20px 20px 0 0;
+        height: 200px;
+        object-fit: fill;
+      }
+      &-text {
+        margin: 0.5rem auto;
+        p {
+          text-align: center;
+          padding: 3px;
+          font-size: $font-size-lg;
+          font-family: "Leckerli One", cursive;
+          color: $primary;
+        }
+      }
+    }
+    &:hover {
+      transform: rotateY(180deg);
+    }
+
+    &__back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      border-radius: 20px;
+      background-color: $light-secondary;
+      color: white;
+      padding: 11px;
+      transform: rotateY(180deg);
+    }
+  }
+  &-info {
+    margin-left: 3rem;
+    &__title {
+      font-size: $font-size-xl;
+      font-weight: 600;
+      background-color: $grey-50;
+      border-bottom: 2px solid $primary;
+      line-height: $font-size-xxl;
+      margin-bottom: 2rem;
+    }
+    &__address {
+      font-size: $font-size-lg;
+      line-height: 1.5rem;
+      margin-bottom: 0.5rem;
+      span {
+        color: $primary;
+        font-weight: 600;
+        padding-right: 10px;
+      }
+    }
+  }
+}
+.email {
+  margin-top: 3rem;
+}

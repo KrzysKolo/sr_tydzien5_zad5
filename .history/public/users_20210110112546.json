@@ -1,0 +1,23 @@
+{
+ "users": [
+ 	{
+ 		"id": 1,
+    "name": {
+      "title": "Mrs",
+      "first": "Yasemin",
+      "last": "Çağıran"
+			},
+		"location": {
+			"street": {
+				"number": 9230,
+				"name": "Vatan Cd"
+				},
+			"city": "Aksaray",
+			"country": "Turkey",
+			"postcode": 79467
+		},
+		"email": "yasemin.cagiran@example.com",
+		"photo": "https://randomuser.me/api/portraits/med/women/88.jpg"
+	}
+  ]
+}

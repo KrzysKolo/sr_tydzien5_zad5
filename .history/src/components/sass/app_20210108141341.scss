@@ -1,0 +1,25 @@
+$primary: #9c27b0;
+$light: #fff;
+$grey-50: #fafafa;
+$shadow-10: 0 0.25 1rem rgba(0, 0, 0, 0.2);
+$shadow-20: 0 0.75 1.25rem rgba(0, 0, 0, 0.7);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  //font-family: "Leckerli One", cursive;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.app {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  .app__page {
+    width: calc(100% - 12rem);
+    background: $grey-50;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+}

@@ -1,0 +1,17 @@
+.sidebar-nav {
+  &__item {
+    display: flex;
+    flex-direction: row;
+    font-weight: $font-wight-bold;
+    font-size: $font-size-lg;
+    padding: 0 1rem;
+    height: 2.5rem;
+    a {
+      text-decoration: none;
+      color: $dark-secondary;
+      .sidebar-nav__item--icon {
+        padding: 0 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.user-profil-lg {
+  opacity: 1;
+  transform: scale(9);
+  transition: all 0.5s 0.3s ease-in-out;
+  width: 8vh;
+  height: 8vh;
+  background-color: green;
+}
+.user-profil-xs {
+  transform: scale(1);
+  width: 8vh;
+  height: 8vh;
+  background-color: red;
+  opacity: 1;
+}

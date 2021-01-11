@@ -1,0 +1,26 @@
+{
+ "users": [
+ 	{
+ 		"id": 1,
+    "name": {
+      "title': "Mrs",
+      'first": "Yasemin",
+      "last": "Çağıran"
+			},
+		"location": {
+			"street": {
+				"number": 9230,
+				"name": "Vatan Cd"
+				},
+			"city": "Aksaray",
+			"state": "Eskişehir",
+			"country": "Turkey",
+			"postcode": 79467,
+		},
+		"email": "yasemin.cagiran@example.com",
+		"photo":
+	},
+
+
+    ]
+  }

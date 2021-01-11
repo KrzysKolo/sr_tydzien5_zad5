@@ -1,0 +1,17 @@
+.sidebar {
+  width: 12rem;
+  padding-top: 2rem;
+  transition: 0.5s;
+}
+//style menu kontekstowego
+.sidebar-close {
+  width: 4rem;
+  transition: 0.5s;
+  //Użytkownik
+  .sidebar-user {
+    &__awatar-wrapper {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

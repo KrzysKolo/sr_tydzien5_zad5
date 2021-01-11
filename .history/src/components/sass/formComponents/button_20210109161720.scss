@@ -1,0 +1,18 @@
+.button {
+  color: $light;
+  border-radius: 5px;
+  box-shadow: $shadow-10;
+  margin: 0.5rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  width: 6rem;
+  :hover {
+    background: green;
+  }
+  &-reset {
+    background-color: $primary;
+  }
+  &-search {
+    background-color: red;
+  }
+}

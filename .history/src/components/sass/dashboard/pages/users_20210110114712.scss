@@ -1,0 +1,28 @@
+.page-users {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  &__searchUser {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+}
+.user-list {
+  list-style: none;
+  padding: 2rem;
+  &__item {
+    color: $light-secondary;
+    cursor: pointer;
+    font-size: $font-size-lg;
+    font-weight: 600;
+    padding: 0.5rem;
+    h3 {
+      display: inline;
+      padding: 0.2rem;
+      &:hover {
+        border-bottom: 3px solid $primary;
+      }
+    }
+  }
+}

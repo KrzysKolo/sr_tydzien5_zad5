@@ -1,0 +1,10 @@
+.sidebar-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__awatar {
+    border-radius: 50%;
+    box-shadow: $shadow-20;
+  }
+}

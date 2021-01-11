@@ -1,0 +1,14 @@
+.button {
+  margin: 0.5rem;
+  color: $light;
+  width: 6rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+  &-reset {
+    background-color: $primary;
+  }
+  &-search {
+    background-color: red;
+  }
+}

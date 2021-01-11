@@ -1,0 +1,13 @@
+.sidebar {
+  width: 12rem;
+  padding-top: 2rem;
+  position: fixed;
+  top: 0;
+  left: -4rem;
+  transition: 0.5s;
+
+  + .sidebar-open {
+    left: 0;
+    transition: 0.5s;
+  }
+}

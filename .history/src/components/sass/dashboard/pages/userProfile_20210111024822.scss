@@ -1,0 +1,32 @@
+.user-profil {
+  width: 40vw;
+  height: 40vw;
+  background-color: green;
+}
+.profil {
+  width: 50%;
+  min-width: 7rem;
+  height: 25rem;
+  background-color: green;
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  &-photo {
+    height: 100%;
+    border: 1px solid red;
+    border-radius: 0.75rem;
+    &:hover {
+      transform: ;
+    }
+    &__image {
+      width: 10rem;
+      height: 10rem;
+      border: 2px solid yellow;
+      img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+      }
+    }
+  }
+}

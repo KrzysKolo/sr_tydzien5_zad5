@@ -1,0 +1,16 @@
+.sidebar-button-toggle {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: end;
+  margin-bottom: 0.25rem;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+
+    i {
+    }
+  }
+}
